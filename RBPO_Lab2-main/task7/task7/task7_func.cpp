@@ -1,8 +1,9 @@
-﻿#include <cmath>
+#include <cmath>
 
-static double x = 5;
-static double res;
+using namespace std;
 
-static void f() {
+double x;
+double res;
+ void f() {
     res = sqrt((x + 3) / (x - 3));
 }
